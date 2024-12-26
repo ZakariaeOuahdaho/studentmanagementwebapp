@@ -1,0 +1,132 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<link href="foretudiant.css" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  /* Reset et styles de base */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(200, 230, 255, 0.8) 35%,
+    rgba(200, 255, 220, 0.8) 65%,
+    rgba(255, 255, 255, 1) 100%
+    );
+  }
+
+  #logincontainer {
+    background: white;
+    padding: 2.5rem;
+    border-radius: 10px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    transition: transform 0.3s ease;
+  }
+
+  #logincontainer:hover {
+    transform: translateY(-5px);
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  label {
+    font-size: 0.9rem;
+    color: #333;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+    transition: color 0.3s ease;
+  }
+
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 0.8rem;
+    border: 2px solid #e1e1e1;
+    border-radius: 6px;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    outline: none;
+  }
+
+  input[type="email"]:focus,
+  input[type="password"]:focus {
+    border-color: #4a90e2;
+    box-shadow: 0 0 0 3px rgba(74, 144, 226, 0.1);
+  }
+
+  input[type="email"]:hover,
+  input[type="password"]:hover {
+    border-color: #999;
+  }
+
+  #button {
+    background-color: #4a90e2;
+    color: white;
+    padding: 0.8rem;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 1rem;
+  }
+
+  #button:hover {
+    background-color: rgba(200, 255, 220, 0.8);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(200, 255, 220, 0.8);
+  }
+
+  #button:active {
+    transform: translateY(0);
+  }
+
+  /* Style pour le message d'erreur */
+  form > p {
+    color: #e74c3c;
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+    text-align: center;
+  }
+
+</style>
+
+<head>
+  <meta charset="UTF-8">
+  <title>login page</title>
+
+</head>
+<body>
+<div id="logincontainer">
+  <form  action="login.php"  name="logininfo" method="POST">
+    <label> email :</label>
+    <input type="email" id="useremail" name="useremail">
+
+
+    <label>password:</label>
+    <input type="password" id="password" name="password">
+
+    <input type="submit" id="button" value="log in" name="submit">
+  </form>
+
+</div>
+</body>
+</html>
+

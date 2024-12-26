@@ -1,0 +1,97 @@
+body{
+  padding:50px ;
+  background-color: rgba(255, 255, 255, 0.61);
+  margin: 800px;
+
+  }
+
+.exo{
+  padding:50px ;
+  background-color: rgba(85, 121, 198, 0.61);
+  border-radius: 10px;
+}
+
+
+.ajout{
+  width: 600px;
+  padding: 30px;
+  background-color: #aba8ed;
+  border: 2px solid black;
+  border-radius: 10px;
+  box-shadow: 10px 10px 2px 1px rgba(128, 128, 220, 0.7);
+
+}
+.suppr{
+  width: 600px;
+  padding: 30px;
+  background-color: #aba8ed;
+  border: 2px solid black;
+  border-radius: 10px;
+  box-shadow: 10px 10px 2px 1px rgba(128, 128, 220, 0.7);
+
+
+}
+.recherche{
+  width: 600px;
+  padding: 30px;
+  background-color: #aba8ed;
+  border: 2px solid black;
+  border-radius: 10px;
+  box-shadow: 10px 10px 2px 1px rgba(128, 128, 220, 0.7);
+
+}
+.modif{
+  width: 600px;
+  padding: 30px;
+  background-color:#aba8ed;
+  border: 2px solid black;
+  border-radius: 10px;
+  box-shadow: 10px 6px 2px 1px rgba(128, 128, 220, 0.7);
+
+}
+.parcour{
+  width: 600px;
+  padding: 30px;
+  background-color: #aba8ed;
+  border: 2px solid black;
+  border-radius: 10px;
+  box-shadow: 5px 6px 2px 1px rgba(128, 128, 220, 0.7);
+
+}
+.trier{
+  width: 600px;
+  padding: 30px;
+  background-color: #aba8ed;
+  border: 2px solid black;
+  border-radius: 10px;
+  box-shadow: 5px 6px 2px 1px rgba(128, 128, 220, 0.7);
+
+}
+.tireinv{
+  width: 600px;
+  padding:30px;
+  background-color: #aba8ed;
+  border: 2px solid black;
+  border-radius: 10px;
+  box-shadow: 5px 6px 2px 1px rgba(128, 128, 220, 0.7);
+
+}
+.compter{
+  width: 600px;
+  padding: 30px;
+  background-color: #aba8ed;
+  border: 2px solid black;
+  border-radius: 10px;
+  box-shadow: 5px 6px 2px 1px rgba(128, 128, 220, 0.7);
+
+}
+.tableaumulti{
+  width: 600px;
+  padding: 30px;
+  background-color: #aba8ed;
+  border: 2px solid black;
+  border-radius: 10px;
+  box-shadow: 5px 6px 2px 1px rgba(128, 128, 220, 0.7);
+
+}
+
